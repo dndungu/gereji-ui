@@ -53,7 +53,7 @@ body {
 }
 
 #navigation input[type="checkbox"]:checked ~ .switcher span {
-	background:url(images/style.png) -236px 21px scroll no-repeat transparent;
+	background-position:-236px 21px;
 }
 
 #navigation input[type="checkbox"]:checked ~ .content {
