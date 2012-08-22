@@ -19,21 +19,22 @@ body {
 #navigation {
 	top:8%;
 	bottom:8%;
+	right:80%;
 	left:0;
 	z-index:3;
 }
 
 #navigation .content {
 	height:100%;
-	width:180px;
+	width:92%;
 	float:left;
 	overflow:hidden;
 }
 
 #navigation .switcher {
 	height:100%;
-	width:18px;
-	float:right;
+	width:8%;
+	float:left;
 }
 
 #navigation input[type="checkbox"] {
