@@ -25,6 +25,7 @@ body {
 }
 
 #navigation .content {
+	display:inline;
 	height:100%;
 	width:92%;
 	float:left;
@@ -32,9 +33,11 @@ body {
 }
 
 #navigation .switcher {
+	display:inline;
 	height:100%;
 	width:8%;
 	float:left;
+	margin-left:-1px;
 }
 
 #navigation input[type="checkbox"] {
