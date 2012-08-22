@@ -27,7 +27,6 @@ body {
 	height:100%;
 	width:180px;
 	float:left;
-	background:#efefef;
 	overflow:hidden;
 }
 
@@ -50,11 +49,11 @@ body {
 	top:40%;
 	width:100%;
 	height:60px;
-	background:url(images/style.png) 2px 21px scroll no-repeat #efefef;
+	background:url(images/style.png) 2px 21px scroll no-repeat transparent;
 }
 
 #navigation input[type="checkbox"]:checked ~ .switcher span {
-	background:url(images/style.png) -236px 21px scroll no-repeat #efefef;
+	background:url(images/style.png) -236px 21px scroll no-repeat transparent;
 }
 
 #navigation input[type="checkbox"]:checked ~ .content {
@@ -69,7 +68,7 @@ body {
 	z-index:1;
 }
 
-.rightRounded {
+.rightCorners {
 	-webkit-border-radius: 0 6px 6px 0;
 	-moz-border-radius: 0 6px 6px 0;
 	border-radius: 0 6px 6px 0;	
