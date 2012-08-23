@@ -5,3 +5,115 @@
 #navigation .content, #navigation .switcher span {
 	background-color:#008ce5;
 }
+
+#navigation .content ul li a {
+	color:#000;
+}
+
+#navigation .content ul li ul li a {
+	color:#000;
+}
+
+#navigation .content ul li input[type="radio"]:checked ~ label a {
+	color:#fff;
+}
+
+#navigation .content .icon {
+	padding:5px 0 5px 40px;
+}
+
+.icon-dashboard {
+	background:url(images/style.png) 0 -97px scroll no-repeat transparent;
+}
+
+.icon-dashboard:hover {
+	background-position:-241px -97px;
+}
+
+.icon-tasks {
+	background:url(images/style.png) 0 -147px scroll no-repeat transparent;
+}
+
+.icon-tasks:hover {
+	background-position:-241px -147px;
+}
+
+.icon-candidates {
+	background:url(images/style.png) 0 -197px scroll no-repeat transparent;
+}
+
+.icon-candidates:hover {
+	background-position:-241px -197px;
+}
+
+.icon-calendar {
+	background:url(images/style.png) 0 -247px scroll no-repeat transparent;
+}
+
+.icon-calendar:hover {
+	background-position:-241px -247px;
+}
+
+.icon-messages {
+	background:url(images/style.png) 0 -297px scroll no-repeat transparent;
+}
+
+.icon-messages:hover {
+	background-position:-241px -297px;
+}
+
+.icon-vacancies {
+	background:url(images/style.png) 0 -347px scroll no-repeat transparent;
+}
+
+.icon-vacancies:hover {
+	background-position:-241px -347px;
+}
+
+.icon-money {
+	background:url(images/style.png) 0 -397px scroll no-repeat transparent;
+}
+
+.icon-money:hover {
+	background-position:-241px -397px;
+}
+
+.icon-reports {
+	background:url(images/style.png) 0 -447px scroll no-repeat transparent;
+}
+
+.icon-reports:hover {
+	background-position:-241px -447px;
+}
+
+.icon-security {
+	background:url(images/style.png) 0 -497px scroll no-repeat transparent;
+}
+
+.icon-security:hover {
+	background-position:-241px -497px;
+}
+
+.icon-maintenance {
+	background:url(images/style.png) 0 -547px scroll no-repeat transparent;
+}
+
+.icon-maintenance:hover {
+	background-position:-241px -547px;
+}
+
+.icon-content {
+	background:url(images/style.png) 0 -597px scroll no-repeat transparent;
+}
+
+.icon-content:hover {
+	background-position:-241px -597px;
+}
+
+.icon-settings {
+	background:url(images/style.png) 0 -47px scroll no-repeat transparent;
+}
+
+.icon-settings:hover {
+	background-position:-241px -47px;
+}

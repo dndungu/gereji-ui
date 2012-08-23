@@ -11,23 +11,24 @@ body {
 #header {
 	top:0;
 	right:0;
-	bottom:92%;
+	bottom:93%;
 	left:0;
 	z-index:2;
 }
 
 #navigation {
 	top:8%;
-	bottom:8%;
+	bottom:1%;
 	right:80%;
 	left:0;
 	z-index:3;
+	min-width:225px;
 }
 
 #navigation .content {
-	display:inline;
-	height:100%;
+	display:inline-block;
 	width:92%;
+	height:100%;
 	float:left;
 	overflow:hidden;
 }
@@ -38,12 +39,7 @@ body {
 	width:8%;
 	float:left;
 	margin-left:-1px;
-}
-
-#navigation input[type="checkbox"] {
-	visibility:hidden;
-	width:0;
-	height:0;
+	cursor:pointer;
 }
 
 #navigation .switcher span {
@@ -56,20 +52,59 @@ body {
 	background:url(images/style.png) 2px 21px scroll no-repeat transparent;
 }
 
-#navigation input[type="checkbox"]:checked ~ .switcher span {
+#navigation > input[type="checkbox"], #navigation .content ul li input[type="radio"] {
+	display:none;
+}
+
+#menuswitch:checked ~ .switcher span {
 	background-position:-236px 21px;
 }
 
-#navigation input[type="checkbox"]:checked ~ .content {
+#menuswitch:checked ~ .content {
 	width:0;
+}
+
+#navigation .content ul, #navigation .content ul li {
+	list-style:none;
+	display:block;
+	margin:0;
+	padding:0;
+}
+
+#navigation>.content>ul>li {
+	margin:0 20px;
+	padding:20px 0 0 0;
+}
+
+#navigation>.content>ul>li>ul>li{
+	padding:6px 0;
+}
+
+#navigation .content ul li ul {
+	font-size:.875em;
+	height:0;
+	padding:0;
+	overflow:hidden;
+}
+
+#navigation .content ul li input[type="radio"]:checked ~ ul {
+	height:90px;
+}
+
+#navigation .content ul li a {
+	text-decoration:none;
+	text-transform:capitalize;
+	cursor:pointer;
+	display:inline-block;
 }
 
 #content {
 	top:8%;
 	right:0;
 	bottom:0;
-	left:0;
+	left:2%;
 	z-index:1;
+	overflow:auto;
 }
 
 .rightCorners {
@@ -79,8 +114,15 @@ body {
 }
 
 .widthTransition {
-	transition: width 1s;
-	-moz-transition: width 1s;
-	-webkit-transition: width 1s;
-	-o-transition: width 1s;	
+	transition: width .9s;
+	-moz-transition: width .9s;
+	-webkit-transition: width .9s;
+	-o-transition: width .9s;	
+}
+
+.heightTransition {
+	transition: height .6s;
+	-moz-transition: height .6s;
+	-webkit-transition: height .6s;
+	-o-transition: height .6s;	
 }
