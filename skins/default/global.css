@@ -3,7 +3,6 @@ body {
 	height:100%;
 	font-size:100%;
 	font-family: Verdana,Arial,sans-serif;
-	font-family:Rachana,sans-serif;
 }
 
 #header, #navigation, #content {
@@ -25,6 +24,7 @@ body {
 
 #header .logo {	
 	width:20%;
+	font-family:Rachana,sans-serif;
 }
 
 #header .logo h1, #header .title h2 {
@@ -134,7 +134,6 @@ body {
 	text-transform:capitalize;
 	cursor:pointer;
 	display:inline-block;
-	font-size:.875em;
 }
 
 #content {
