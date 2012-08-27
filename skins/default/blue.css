@@ -2,9 +2,16 @@
 	background-color:#000;
 }
 
+#header .logo, #header .title {
+	color:#efefef;	
+}
+
+#header .topbar ul li a {
+	color:#888;
+}
+
 #navigation .content, #navigation .switcher span {
 	background-color:#008ce5;
-	background-color:#efefef;
 }
 
 #navigation .content ul li a {
@@ -16,7 +23,7 @@
 }
 
 #navigation .content ul li input[type="radio"]:checked ~ label a {
-	color:#fff;
+	font-weight:900;
 }
 
 #navigation .content .icon {
