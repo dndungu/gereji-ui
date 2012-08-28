@@ -4,6 +4,7 @@ core.layout = {
 			core.layout.resize();
 			core.layout.locksizes();
 			core.layout.initMenuSlide();
+			core.layout.initMenuExpand();
 			$(window).resize(function(){
 				core.layout.resize();
 			});
@@ -21,6 +22,14 @@ core.layout = {
 	initMenuSlide: function(){
 		$('#mainarea .navigation .switcher').mousedown(function(){
 			$('#mainarea').toggleClass('hiddenMenu');
+		});
+	},
+	initMenuExpand: function(){
+		$('#mainarea .navigation .menu ul li a').mousedown(function(){
+			var subject = $(this);
+			var parent = subject.parent();
+			$('#mainarea .navigation .menu ul li.open').not(parent).removeClass('open');
+			parent.addClass('open');
 		});
 	}
 };

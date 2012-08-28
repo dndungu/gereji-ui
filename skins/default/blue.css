@@ -32,97 +32,97 @@
 }
 
 .icon-dashboard {
-	background:url(images/style.png) 0 -97px scroll no-repeat transparent;
+	background:url(images/style.png) 0 -100px scroll no-repeat transparent;
 }
 
 .icon-dashboard:hover {
-	background-position:-241px -97px;
+	background-position:-241px -100px;
 }
 
 .icon-tasks {
-	background:url(images/style.png) 0 -147px scroll no-repeat transparent;
+	background:url(images/style.png) 0 -150px scroll no-repeat transparent;
 }
 
 .icon-tasks:hover {
-	background-position:-241px -147px;
+	background-position:-241px -150px;
 }
 
 .icon-candidates {
-	background:url(images/style.png) 0 -197px scroll no-repeat transparent;
+	background:url(images/style.png) 0 -200px scroll no-repeat transparent;
 }
 
 .icon-candidates:hover {
-	background-position:-241px -197px;
+	background-position:-241px -200px;
 }
 
 .icon-calendar {
-	background:url(images/style.png) 0 -247px scroll no-repeat transparent;
+	background:url(images/style.png) 0 -250px scroll no-repeat transparent;
 }
 
 .icon-calendar:hover {
-	background-position:-241px -247px;
+	background-position:-241px -250px;
 }
 
 .icon-messages {
-	background:url(images/style.png) 0 -297px scroll no-repeat transparent;
+	background:url(images/style.png) 0 -298px scroll no-repeat transparent;
 }
 
 .icon-messages:hover {
-	background-position:-241px -297px;
+	background-position:-241px -298px;
 }
 
 .icon-vacancies {
-	background:url(images/style.png) 0 -347px scroll no-repeat transparent;
+	background:url(images/style.png) 0 -350px scroll no-repeat transparent;
 }
 
 .icon-vacancies:hover {
-	background-position:-241px -347px;
+	background-position:-241px -350px;
 }
 
 .icon-money {
-	background:url(images/style.png) 0 -397px scroll no-repeat transparent;
+	background:url(images/style.png) 0 -400px scroll no-repeat transparent;
 }
 
 .icon-money:hover {
-	background-position:-241px -397px;
+	background-position:-241px -400px;
 }
 
 .icon-reports {
-	background:url(images/style.png) 0 -447px scroll no-repeat transparent;
+	background:url(images/style.png) 0 -450px scroll no-repeat transparent;
 }
 
 .icon-reports:hover {
-	background-position:-241px -447px;
+	background-position:-241px -450px;
 }
 
 .icon-security {
-	background:url(images/style.png) 0 -497px scroll no-repeat transparent;
+	background:url(images/style.png) 0 -500px scroll no-repeat transparent;
 }
 
 .icon-security:hover {
-	background-position:-241px -497px;
+	background-position:-241px -500px;
 }
 
 .icon-maintenance {
-	background:url(images/style.png) 0 -547px scroll no-repeat transparent;
+	background:url(images/style.png) 0 -550px scroll no-repeat transparent;
 }
 
 .icon-maintenance:hover {
-	background-position:-241px -547px;
+	background-position:-241px -550px;
 }
 
 .icon-content {
-	background:url(images/style.png) 0 -597px scroll no-repeat transparent;
+	background:url(images/style.png) 0 -600px scroll no-repeat transparent;
 }
 
 .icon-content:hover {
-	background-position:-241px -597px;
+	background-position:-241px -600px;
 }
 
 .icon-settings {
-	background:url(images/style.png) 0 -47px scroll no-repeat transparent;
+	background:url(images/style.png) 0 -50px scroll no-repeat transparent;
 }
 
 .icon-settings:hover {
-	background-position:-241px -47px;
+	background-position:-241px -50px;
 }

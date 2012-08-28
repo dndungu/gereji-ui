@@ -155,6 +155,14 @@ h1, h2, h3, h4, h5, h6 {
 	height:0;
 	padding:0;
 	overflow:hidden;
+	transition: height .6s;
+	-moz-transition: height .6s;
+	-webkit-transition: height .6s;
+	-o-transition: height .6s;	
+}
+
+#mainarea .navigation .menu ul li.open ul {
+	height:90px;
 }
 
 #mainarea .navigation .menu ul li a {
@@ -247,11 +255,4 @@ h1, h2, h3, h4, h5, h6 {
 	-webkit-border-radius: 0 4px 4px 0;
 	-moz-border-radius: 0 4px 4px 0;
 	border-radius: 0 4px 4px 0;	
-}
-
-.heightTransition {
-	transition: height .6s;
-	-moz-transition: height .6s;
-	-webkit-transition: height .6s;
-	-o-transition: height .6s;	
 }
