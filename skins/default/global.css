@@ -123,15 +123,15 @@ h1, h2, h3, h4, h5, h6 {
 	float:left;
 	width:100%;
 	height:60px;
-	margin-left:-2px;
+	margin-left:-1px;
 }
 
 .navigation .switcher span {
-	background:url(images/style.png) 4px 21px scroll no-repeat transparent;
+	background:url(images/style.png) 2px 21px scroll no-repeat transparent;
 }
 
 .hiddenMenu .navigation .switcher span {
-	background-position:-235px 21px;
+	background-position:-237px 21px;
 }
 
 #mainarea .navigation .menu ul, #mainarea .navigation .menu ul li {
