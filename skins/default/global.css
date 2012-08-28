@@ -174,18 +174,31 @@ h1, h2, h3, h4, h5, h6 {
 
 #mainarea .leftBox, #mainarea .rightBox {
 	display:inline-block;
+	float:left;
 	height:100%;
 	overflow:auto;
 }
 
+#mainarea .leftBox {
+	width:60%;
+}
+
+#mainarea .rightBox {
+	width:40%;
+}
+
 #mainarea .grid, #mainarea .gridSearch, #mainarea .gridCommands, #mainarea .gridContent, #mainarea .gridHeader, #mainarea .gridBody, #mainarea .gridFooter {
 	display:inline-block;
+	float:left;
 	width:100%;
 }
 
 #mainarea .gridSearch {
-	text-align:right;
 	padding:0 0 10px 0;
+}
+
+#mainarea .gridCommands {
+	padding:10px 0 0 0;
 }
 
 #mainarea .grid {
