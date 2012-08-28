@@ -29,12 +29,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .title {
-	padding:22px 0 0 0;
+	padding:15px 0 0 0;
 }
 
 #header .navigation {
 	width:99%;
-	padding:5px 1% 0 0;
+	padding:0 1% 0 0;
 	text-align:right;
 }
 
