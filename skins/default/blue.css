@@ -2,32 +2,32 @@
 	background-color:#000;
 }
 
-#header .logo, #header .title {
+#header .logo {
 	color:#efefef;	
 }
 
-#header .topbar ul li a {
+#header .navigation li a, #header .title {
 	color:#888;
 }
 
-#navigation .content, #navigation .switcher span {
+#mainarea .navigation .menu, #mainarea .navigation .switcher span {
 	background-color:#008ce5;
 /* 	background-color:#e0e0e0; */
 }
 
-#navigation .content ul li a {
+#mainarea .navigation .menu ul li a {
 	color:#000;
 }
 
-#navigation .content ul li ul li a {
+#mainarea .navigation .menu ul li ul li a {
 	color:#000;
 }
 
-#navigation .content ul li input[type="radio"]:checked ~ label a {
+#mainarea .navigation .menu ul li input[type="radio"]:checked ~ label a {
 	font-weight:900;
 }
 
-#navigation .content .icon {
+#mainarea .navigation .menu .icon {
 	padding:5px 0 5px 40px;
 }
 
