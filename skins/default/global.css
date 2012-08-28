@@ -174,11 +174,22 @@ h1, h2, h3, h4, h5, h6 {
 
 #mainarea .leftBox, #mainarea .rightBox {
 	display:inline-block;
+	height:100%;
+	overflow:auto;
 }
 
-#mainarea .grid, #mainarea .gridHeader, #mainarea .gridBody, #mainarea .gridFooter {
+#mainarea .grid, #mainarea .gridSearch, #mainarea .gridCommands, #mainarea .gridContent, #mainarea .gridHeader, #mainarea .gridBody, #mainarea .gridFooter {
 	display:inline-block;
 	width:100%;
+}
+
+#mainarea .gridSearch {
+	text-align:right;
+	padding:0 0 10px 0;
+}
+
+#mainarea .grid {
+	margin:20px 0 0 0;
 }
 
 .column {
@@ -255,4 +266,43 @@ h1, h2, h3, h4, h5, h6 {
 	-webkit-border-radius: 0 4px 4px 0;
 	-moz-border-radius: 0 4px 4px 0;
 	border-radius: 0 4px 4px 0;	
+}
+
+input[type="button"], input[type="submit"], input[type="reset"] {
+	cursor:pointer;
+	padding:3px 6px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	border:1px solid #ccc;
+	background-color: #fafafa;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), color-stop(25%, #ffffff), to(#e6e6e6) );
+	background-image: -webkit-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+	background-image: -moz-linear-gradient(top, #ffffff, #ffffff 25%, #e6e6e6);
+	background-image: -ms-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+	background-image: -o-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+	background-image: linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+	background-repeat: no-repeat;
+	-pie-background: linear-gradient(#ffffff, #e6e6e6);
+	behavior: url(/skins/default/images/pie.htc);		
+}
+
+input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover {
+	text-decoration: none;
+	background-color: #e6e6e6;
+	background-position: 0 -6px;
+	-webkit-transition: background-position 0.2s linear;
+	-moz-transition: background-position 0.2s linear;
+	-ms-transition: background-position 0.2s linear;
+	-o-transition: background-position 0.2s linear;
+	transition: background-position 0.2s linear;
+	behavior: url(/skins/default/images/pie.htc);	
+}
+
+input[type="text"], input[type="password"], select, textarea, select {
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	border: 1px inset #F8F8F8;
+	padding: 3px 0;	
 }

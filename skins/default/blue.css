@@ -12,7 +12,7 @@
 
 #mainarea .navigation .menu, #mainarea .navigation .switcher span {
 	background-color:#008ce5;
-/* 	background-color:#e0e0e0; */
+	background-color:#efefef;
 }
 
 #mainarea .navigation .menu ul li a {
@@ -125,4 +125,8 @@
 
 .icon-settings:hover {
 	background-position:-241px -50px;
+}
+
+input[type="text"], input[type="password"], select, textarea, select {
+	background: #FEFEFE;
 }
