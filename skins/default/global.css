@@ -58,6 +58,20 @@ h1, h2, h3, h4, h5, h6 {
 	margin:0;
 }
 
+.navigation, .navigation .menu, .hiddenMenu .maincontent {
+	transition: width .9s;
+	-moz-transition: width .9s;
+	-webkit-transition: width .9s;
+	-o-transition: width .9s;	
+}
+
+.hiddenMenu .navigation, .hiddenMenu .navigation .menu, .maincontent {
+	transition: width .6s;
+	-moz-transition: width .6s;
+	-webkit-transition: width .6s;
+	-o-transition: width .6s;	
+}
+
 .navigation {
 	width:20%;
 }
@@ -229,16 +243,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .rightCorners {
-	-webkit-border-radius: 0 6px 6px 0;
-	-moz-border-radius: 0 6px 6px 0;
-	border-radius: 0 6px 6px 0;	
-}
-
-.widthTransition {
-	transition: width .6s;
-	-moz-transition: width .6s;
-	-webkit-transition: width .6s;
-	-o-transition: width .6s;	
+	-webkit-border-radius: 0 4px 4px 0;
+	-moz-border-radius: 0 4px 4px 0;
+	border-radius: 0 4px 4px 0;	
 }
 
 .heightTransition {
