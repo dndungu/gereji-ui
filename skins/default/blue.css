@@ -23,7 +23,7 @@
 	color:#000;
 }
 
-#mainarea .navigation .menu ul li input[type="radio"]:checked ~ label a {
+#mainarea .navigation .menu ul li.open>a {
 	font-weight:900;
 }
 
