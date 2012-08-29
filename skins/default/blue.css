@@ -10,9 +10,13 @@
 	color:#888;
 }
 
-#mainarea .navigation .menu, #mainarea .navigation .switcher span {
+#mainarea .navigation {
 	background-color:#008ce5;
-	background-color:#efefef;
+	background-color:#f2f2f2;
+}
+
+#mainarea .navigation .switcher span {
+	background-color:#fff;
 }
 
 #mainarea .navigation .menu ul li a {
@@ -132,6 +136,6 @@ input[type="text"], input[type="password"], select, textarea, select {
 }
 
 #mainarea .rightBox {
-	background:#f8f8f8;
+	background:#fafafa;
 	height:100%;
 }

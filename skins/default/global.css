@@ -113,25 +113,24 @@ h1, h2, h3, h4, h5, h6 {
 
 #mainarea .navigation .switcher {
 	display:inline-block;
-	float:left;
+	float:right;
 	cursor:pointer;
 }
 
 #mainarea .navigation .switcher span {
 	text-align:center;
 	display:inline-block;
-	float:left;
+	float:right;
 	width:100%;
 	height:60px;
-	margin-left:-1px;
 }
 
 .navigation .switcher span {
-	background:url(images/style.png) 2px 21px scroll no-repeat transparent;
+	background:url(images/style.png) 5px 21px scroll no-repeat transparent;
 }
 
 .hiddenMenu .navigation .switcher span {
-	background-position:-237px 21px;
+	background-position:-235px 21px;
 }
 
 #mainarea .navigation .menu ul, #mainarea .navigation .menu ul li {
@@ -170,6 +169,7 @@ h1, h2, h3, h4, h5, h6 {
 	text-transform:capitalize;
 	cursor:pointer;
 	display:inline-block;
+	font-size:0.875em;
 }
 
 #mainarea .leftBox, #mainarea .rightBox {
@@ -187,18 +187,22 @@ h1, h2, h3, h4, h5, h6 {
 	width:40%;
 }
 
-#mainarea .grid, #mainarea .gridSearch, #mainarea .gridCommands, #mainarea .gridContent, #mainarea .gridHeader, #mainarea .gridBody, #mainarea .gridFooter {
+#mainarea .grid {
+	display:block;
+}
+
+#mainarea .gridSearch, #mainarea .gridCommands, #mainarea .gridContent, #mainarea .gridHeader, #mainarea .gridBody, #mainarea .gridFooter {
 	display:inline-block;
 	float:left;
 	width:100%;
 }
 
-#mainarea .gridSearch {
-	padding:0 0 10px 0;
+#mainarea .gridCommands, #mainarea .gridHeader {
+	padding:10px 0 0 0;
 }
 
-#mainarea .gridCommands {
-	padding:10px 0 0 0;
+#mainarea .gridContent {
+	font-size:.75em;
 }
 
 #mainarea .grid {
@@ -279,6 +283,12 @@ h1, h2, h3, h4, h5, h6 {
 	-webkit-border-radius: 0 4px 4px 0;
 	-moz-border-radius: 0 4px 4px 0;
 	border-radius: 0 4px 4px 0;	
+}
+
+.leftCorners {
+	-webkit-border-radius: 4px 0 0 4px;
+	-moz-border-radius: 4px 0 0 4px;
+	border-radius: 4px 0 0 4px;	
 }
 
 input[type="button"], input[type="submit"], input[type="reset"] {
