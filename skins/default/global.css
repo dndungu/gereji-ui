@@ -221,8 +221,14 @@ h1, h2, h3, h4, h5, h6 {
 
 #mainarea .gridHeader .column span {
 	display:inline-block;
+	float:left;
 	margin-top:5px;
 	margin-bottom:5px;
+	overflow:hidden;
+}
+
+#mainarea .gridHeader .column .sort-name {
+	width:80%;
 }
 
 #mainarea .gridContent {
@@ -390,9 +396,8 @@ input[type="text"], input[type="password"], select, textarea, select {
 .sort-icon {
 	cursor:pointer;
 	float: right;
-	width: 16px;
+	width: 20%;
 	height: 16px;
-	margin-right:5px;
 	background: url(images/style.png) -32px -650px scroll no-repeat transparent;
 }
 
