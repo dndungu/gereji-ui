@@ -132,7 +132,7 @@
 }
 
 input[type="text"], input[type="password"], select, textarea, select {
-	background: #FEFEFE;
+	background: #fff;
 }
 
 #mainarea .rightBox {

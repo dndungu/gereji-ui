@@ -197,8 +197,32 @@ h1, h2, h3, h4, h5, h6 {
 	width:100%;
 }
 
-#mainarea .gridCommands, #mainarea .gridHeader {
+#mainarea .gridCommands {
 	padding:10px 0 0 0;
+}
+
+#mainarea .gridHeader {
+	margin:10px 0 0 0;
+	background-color:#fafafa;
+	border-top:1px solid #dfdfdf;
+	border-bottom:1px solid #dfdfdf;
+}
+
+#mainarea .gridHeader .column {
+	border-right: 1px solid #dfdfdf;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box	
+}
+
+#mainarea .gridHeader .column:last-child {
+	border-right:0 none;
+}
+
+#mainarea .gridHeader .column span {
+	display:inline-block;
+	margin-top:5px;
+	margin-bottom:5px;
 }
 
 #mainarea .gridContent {
@@ -207,6 +231,39 @@ h1, h2, h3, h4, h5, h6 {
 
 #mainarea .grid {
 	margin:20px 0 0 0;
+}
+
+#mainarea .gridBody .gridRecord {
+	cursor:text;
+	display:inline-block;
+	float:left;
+	width:100%;
+	border-bottom:1px solid #f2f2f2;
+	padding:6px 0;
+}
+
+#mainarea .gridBody .gridRecord:hover {
+	background:#fafafa;
+}
+
+#mainarea .gridFooter {
+	padding:20px 0 0 0;
+	font-size:.875em;
+}
+
+#mainarea .gridFooter ul, #mainarea .gridFooter ul li {
+	display:inline-block;
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#mainarea .gridFooter ul {
+	float:right;
+}
+
+#mainarea .gridFooter ul li {
+	padding:0 10px 0 0;
 }
 
 .column {
@@ -291,7 +348,7 @@ h1, h2, h3, h4, h5, h6 {
 	border-radius: 4px 0 0 4px;	
 }
 
-input[type="button"], input[type="submit"], input[type="reset"] {
+input[type="button"], input[type="submit"], input[type="reset"], .silverButton {
 	cursor:pointer;
 	padding:3px 6px;
 	-webkit-border-radius: 2px;
@@ -310,7 +367,7 @@ input[type="button"], input[type="submit"], input[type="reset"] {
 	behavior: url(/skins/default/images/pie.htc);		
 }
 
-input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover {
+input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover, .silverButton:hover {
 	text-decoration: none;
 	background-color: #e6e6e6;
 	background-position: 0 -6px;
@@ -328,4 +385,21 @@ input[type="text"], input[type="password"], select, textarea, select {
 	border-radius: 2px;
 	border: 1px inset #F8F8F8;
 	padding: 3px 0;	
+}
+
+.sort-icon {
+	cursor:pointer;
+	float: right;
+	width: 16px;
+	height: 16px;
+	margin-right:5px;
+	background: url(images/style.png) -32px -650px scroll no-repeat transparent;
+}
+
+.desc {
+	background: url(images/style.png) -16px -650px scroll no-repeat transparent;
+}
+
+.asc {
+	background: url(images/style.png) 0 -650px scroll no-repeat transparent;
 }
