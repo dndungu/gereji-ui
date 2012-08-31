@@ -8,7 +8,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family:Rachana, Garamond, serif;
+	font-family:Rachana,Georgia,Times,serif;
 	font-weight:normal;
 	margin:0;
 	padding:0;
@@ -197,6 +197,10 @@ h1, h2, h3, h4, h5, h6 {
 	width:100%;
 }
 
+#mainarea .gridSearch {
+	text-align:right;
+}
+
 #mainarea .gridCommands {
 	padding:10px 0 0 0;
 }
@@ -354,7 +358,7 @@ h1, h2, h3, h4, h5, h6 {
 	border-radius: 4px 0 0 4px;	
 }
 
-input[type="button"], input[type="submit"], input[type="reset"], .silverButton {
+input[type="button"], input[type="submit"], input[type="reset"], .silverGradient {
 	cursor:pointer;
 	padding:3px 6px;
 	-webkit-border-radius: 2px;
@@ -373,7 +377,7 @@ input[type="button"], input[type="submit"], input[type="reset"], .silverButton {
 	behavior: url(/skins/default/images/pie.htc);		
 }
 
-input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover, .silverButton:hover {
+input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover, .silverGradient:hover {
 	text-decoration: none;
 	background-color: #e6e6e6;
 	background-position: 0 -6px;
@@ -385,12 +389,47 @@ input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hove
 	behavior: url(/skins/default/images/pie.htc);	
 }
 
-input[type="text"], input[type="password"], select, textarea, select {
+input[type="text"], input[type="password"], textarea {
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;
 	border: 1px inset #F8F8F8;
 	padding: 3px 0;	
+}
+
+select {
+	padding: 3px 0;	
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;	
+	border-color:#F8F8F8;
+}
+
+label {
+	display:inline-block;
+	width:100%;
+	padding:0 0 10px 0;
+}
+
+label span {
+	display:inline-block;
+	float:left;
+	text-align:right;
+	width:28%;
+	margin:0 1%;
+	padding-top:3px;
+}
+
+label input[type="text"], label input[type="password"], label textarea, label select, label .field, span.buttons {
+	display:inline-block;
+	float:left;
+	text-align:left;
+	width:63%;
+	margin:0 1%;
+}
+
+span.buttons {
+	margin-left:30%;
 }
 
 .sort-icon {
@@ -409,11 +448,10 @@ input[type="text"], input[type="password"], select, textarea, select {
 	background: url(images/style.png) 0 -650px scroll no-repeat transparent;
 }
 
-.section {
+.rightBox .detail {
+	font-size:.875em;
 	display:inline-block;
 	width:100%;
-}
-
-.sectionHeader {
-	
+	margin:20px 0 0 0;
+	padding:0 0 10px 0;
 }

@@ -139,3 +139,12 @@ input[type="text"], input[type="password"], select, textarea, select {
 	background:#f2f2f2;
 	height:100%;
 }
+
+.rightBox .detail input[type="text"], .rightBox .detail input[type="password"], .rightBox .detail input[type="radio"], .rightBox .detail input[type="checkbox"], .rightBox .detail textarea {
+	background:#f2f2f2;
+}
+
+.rightBox .detail {
+	border-bottom:1px solid #dfdfdf;
+	color:#666;
+}
