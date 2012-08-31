@@ -351,7 +351,8 @@ h1, h2, h3, h4, h5, h6 {
 .leftCorners {
 	-webkit-border-radius: 4px 0 0 4px;
 	-moz-border-radius: 4px 0 0 4px;
-	border-radius: 4px 0 0 4px;	
+	border-radius: 4px 0 0 4px;
+	behavior: url(/skins/default/images/pie.htc);	
 }
 
 input[type="button"], input[type="submit"], input[type="reset"], .silverButton {
@@ -407,4 +408,13 @@ input[type="text"], input[type="password"], select, textarea, select {
 
 .asc {
 	background: url(images/style.png) 0 -650px scroll no-repeat transparent;
+}
+
+.section {
+	display:inline-block;
+	width:100%;
+}
+
+.sectionHeader {
+	
 }
