@@ -5,6 +5,7 @@ core.layout = {
 			core.layout.locksizes();
 			core.layout.initMenuSlide();
 			core.layout.initMenuExpand();
+			core.layout.initDetailExpand();
 			$(window).resize(function(){
 				core.layout.resize();
 			});
@@ -29,7 +30,15 @@ core.layout = {
 			var subject = $(this);
 			var parent = subject.parent();
 			$('#mainarea .navigation .menu ul li.open').not(parent).removeClass('open');
-			parent.addClass('open');
+			parent.toggleClass('open');
+		});
+	},
+	initDetailExpand: function(){
+		$('#mainarea .maincontent .rightBox .detail h3').mousedown(function(){
+			var subject = $(this);
+			var parent = subject.parent();
+			$('#mainarea .maincontent .rightBox .detail').not(parent).removeClass('open');
+			parent.toggleClass('open');
 		});
 	}
 };

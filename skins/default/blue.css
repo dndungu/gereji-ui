@@ -12,11 +12,11 @@
 
 #mainarea .navigation {
 	background-color:#008ce5;
-	background-color:#f2f2f2;
+	background-color:#efefef;
 }
 
 #mainarea .navigation .switcher span {
-	background-color:#fff;
+/* 	background-color:#fff; */
 }
 
 #mainarea .navigation .menu ul li a {
@@ -136,15 +136,28 @@ input[type="text"], input[type="password"], select, textarea, select {
 }
 
 #mainarea .rightBox {
-	background:#f2f2f2;
+	background:#fafafa;
 	height:100%;
 }
 
+.gridBody .current, .gridBody .gridRecord:hover {
+	background:#fafafa;
+}
+
 .rightBox .detail input[type="text"], .rightBox .detail input[type="password"], .rightBox .detail input[type="radio"], .rightBox .detail input[type="checkbox"], .rightBox .detail textarea {
-	background:#f2f2f2;
+	background-color:#fff;
 }
 
 .rightBox .detail {
-	border-bottom:1px solid #dfdfdf;
-	color:#666;
+	border-bottom:1px solid #d8d8d8;
+	border-top:1px solid #f8f8f8;
+	color:#444;
+}
+
+.rightBox .detail:first-child {
+	border-top:0 none;
+}
+
+.rightBox .detail:last-child {
+	border-bottom:0 none;
 }

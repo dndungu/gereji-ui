@@ -7,9 +7,9 @@
     	@import url(skins/default/global.css);
     	@import url(skins/default/blue.css);
     </style>
-    <script type="text/javascript" src="/javascripts/libraries/jquery-1.8.0.min.js"></script>
-    <script type="text/javascript" src="/javascripts/core/core.js"></script>
-    <script type="text/javascript" src="/javascripts/core/core.layout.js"></script>
+    <script type="text/javascript" src="javascripts/libraries/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="javascripts/core/core.js"></script>
+    <script type="text/javascript" src="javascripts/core/core.layout.js"></script>
     <title></title>
   </head>
   <body>
@@ -302,7 +302,8 @@
 	  			</div>
 	  		</div>
 	  		<div class="rightBox">
-	  			<div class="detail">
+	  			<div class="detail open">
+	  				<h3>Edit Record</h3>
 	  				<form class="column grid10of10">
 	  					<label>
 	  						<span>First name</span>
@@ -347,6 +348,53 @@
 	  						<input type="submit" value="Save Record"/>
 	  					</span>  						  						  						  					
 	  				</form>
+	  			</div>
+	  			<div class="detail">
+					<h3>Edit Record</h3>
+	  				<form class="column grid10of10">
+	  					<label>
+	  						<span>First name</span>
+	  						<input type="text"/>
+	  					</label>
+	  					<label>
+	  						<span>Middle name</span>
+	  						<input type="text"/>
+	  					</label>
+	  					<label>
+	  						<span>Last name</span>
+	  						<input type="text"/>
+	  					</label>
+	  					<label>
+	  						<span>Country</span>
+	  						<select class="silverGradient">
+	  							<option>Kenya</option>
+	  							<option>Uganda</option>
+	  							<option>Tanzania</option>
+	  						</select>
+	  					</label>
+	  					<div class="label">
+	  						<span>Gender</span>
+	  						<span class="field">	
+		  						<input type="radio" name="gender"/> Male
+		  						<input type="radio" name="gender"/> Female	  						
+	  						</span>
+	  					</div>
+	  					<label>
+	  						<span>Notes</span>
+	  						<textarea></textarea>
+	  					</label>
+	  					<div class="label">
+	  						<span>Public</span>
+	  						<span class="field">
+	  							<input type="checkbox" name="public"/> Yes
+	  							<input type="checkbox" name="public"/> No
+	  							<input type="checkbox" name="public"/> Maybe
+	  						</span>
+	  					</div>	  					
+	  					<div class="label buttons">
+	  						<input type="submit" value="Save Record"/>
+	  					</div>  						  						  						  					
+	  				</form>	  				
 	  			</div>
 	  		</div>	  	
 	  	</div>	  	  		
