@@ -11,6 +11,10 @@ core.layout = {
 			});
 		});
 	},
+	stage: {
+		leftBox: new Object(),
+		rightBox: new Object()
+	},
 	locksizes: function(){
 		var width = $('#mainarea .navigation .switcher').width();
 		$('#mainarea .navigation .switcher').width(width);
